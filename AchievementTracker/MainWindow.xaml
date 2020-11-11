@@ -1,0 +1,31 @@
+﻿<Window x:Class="AchievementTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AchievementTracker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="144*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="292" Margin="10,42,0,0" VerticalAlignment="Top" Width="259" Grid.ColumnSpan="3"/>
+        <Label x:Name="label" Content="Projects" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBox1" Margin="71,39,144,157" Grid.Column="2"/>
+        <Label x:Name="label1" Content="Tasks" HorizontalAlignment="Left" Margin="64,16,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.838,0.276" Grid.Column="2"/>
+        <Button x:Name="button" Content="New Project" HorizontalAlignment="Left" Margin="36,366,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="New Task" HorizontalAlignment="Left" Margin="3,366,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="button2" Content="Delete Project" HorizontalAlignment="Left" Margin="36,402,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button3" Content="Delete Task" HorizontalAlignment="Left" Margin="13,404,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="label2" Content="Task Name:  " HorizontalAlignment="Left" Margin="90,384,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="label3" Content="Task Details: " HorizontalAlignment="Left" Margin="90,426,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="label4" Content="Date Created:" HorizontalAlignment="Left" Margin="90,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="label5" Content="Duration: " HorizontalAlignment="Left" Margin="242,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="label6" Content="Expected Duration: " HorizontalAlignment="Left" Margin="347,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="label7" Content="Status: " HorizontalAlignment="Left" Margin="347,444,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+
+    </Grid>
+</Window>
