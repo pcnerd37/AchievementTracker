@@ -25,7 +25,23 @@ namespace AchievementTracker
             InitializeComponent();
         }
 
-        private void onClickBtnNewProject()
+        private void onClickBtnNewProject(object sender, RoutedEventArgs e)
+        {
+            NewProjectWindow newProject = new NewProjectWindow();
+            newProject.Show();
+        }
+
+        private void onClickbtnDeleteProject(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void onClickbtnNewTask(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void onClickbtnDeleteTask(object sender, RoutedEventArgs e)
         {
 
         }
