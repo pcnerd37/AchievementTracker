@@ -24,5 +24,10 @@ namespace AchievementTracker
         {
             InitializeComponent();
         }
+
+        private void onClickBtnNewProject()
+        {
+
+        }
     }
 }
