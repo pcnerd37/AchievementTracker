@@ -14,18 +14,24 @@
         </Grid.ColumnDefinitions>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="292" Margin="10,42,0,0" VerticalAlignment="Top" Width="259" Grid.ColumnSpan="3"/>
         <Label x:Name="label" Content="Projects" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listBox1" Margin="71,39,144,157" Grid.Column="2"/>
-        <Label x:Name="label1" Content="Tasks" HorizontalAlignment="Left" Margin="64,16,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.838,0.276" Grid.Column="2"/>
-        <Button x:Name="button" Content="New Project" HorizontalAlignment="Left" Margin="36,366,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="New Task" HorizontalAlignment="Left" Margin="3,366,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Button x:Name="button2" Content="Delete Project" HorizontalAlignment="Left" Margin="36,402,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button3" Content="Delete Task" HorizontalAlignment="Left" Margin="13,404,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
-        <Label x:Name="label2" Content="Task Name:  " HorizontalAlignment="Left" Margin="90,384,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label x:Name="label3" Content="Task Details: " HorizontalAlignment="Left" Margin="90,426,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label x:Name="label4" Content="Date Created:" HorizontalAlignment="Left" Margin="90,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label x:Name="label5" Content="Duration: " HorizontalAlignment="Left" Margin="242,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label x:Name="label6" Content="Expected Duration: " HorizontalAlignment="Left" Margin="347,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label x:Name="label7" Content="Status: " HorizontalAlignment="Left" Margin="347,444,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <ListBox x:Name="listBox1" Margin="30,39,185,157" Grid.Column="2"/>
+        <Label x:Name="label1" Content="Tasks" HorizontalAlignment="Left" Margin="23,16,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.838,0.276" Grid.Column="2"/>
+        <Button x:Name="btnNewProjectButton" Content="New Project" HorizontalAlignment="Left" Margin="10,366,0,0" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="btnNewTask" Content="New Task" HorizontalAlignment="Left" Margin="103,366,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDeleteProject" Content="Delete Project" HorizontalAlignment="Left" Margin="10,399,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button3" Content="Delete Task" HorizontalAlignment="Left" Margin="103,399,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTaskName" Content="Task Name:  " HorizontalAlignment="Left" Margin="49,384,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="lblTaskDetails" Content="Task Details: " HorizontalAlignment="Left" Margin="49,426,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="lblDateCreated" Content="Date Created:" HorizontalAlignment="Left" Margin="49,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="lblDuration" Content="Duration: " HorizontalAlignment="Left" Margin="257,464,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="lblExpectedDuration" Content="Expected Duration: " HorizontalAlignment="Left" Margin="441,465,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="lblStatus" Content="Status: " HorizontalAlignment="Left" Margin="441,445,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label x:Name="lblTaskNameData" Content="Task Name Data" Grid.Column="2" HorizontalAlignment="Left" Margin="131,386,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTaskDetailsData" Content="Task Details Data" Grid.Column="2" HorizontalAlignment="Left" Margin="131,426,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDateCreatedData" Content="Date Created Data" Grid.Column="2" HorizontalAlignment="Left" Margin="136,463,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDurationData" Content="Duration Data" Grid.Column="2" HorizontalAlignment="Left" Margin="324,464,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblStatusData" Content="Status Data" Grid.Column="2" HorizontalAlignment="Left" Margin="492,445,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblExpectedDurationData" Content="Expected Duration Data" Grid.Column="2" HorizontalAlignment="Left" Margin="562,465,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.351,-0.011"/>
 
     </Grid>
 </Window>
