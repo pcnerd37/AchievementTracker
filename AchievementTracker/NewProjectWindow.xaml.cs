@@ -21,5 +21,15 @@ namespace AchievementTracker
         {
             InitializeComponent();
         }
+
+        private void onClickbtnCancel(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void onClickbtnSave(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

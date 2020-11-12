@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="NewProjectWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="lblProjectName" Content="Project Name:" HorizontalAlignment="Left" Margin="44,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTasks" Content="Number of Tasks:" HorizontalAlignment="Left" Margin="44,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDuration" Content="Duration (estimated in hours): " HorizontalAlignment="Left" Margin="44,131,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblStatus" Content="Status: " HorizontalAlignment="Left" Margin="44,162,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProjectName" HorizontalAlignment="Left" Margin="129,38,0,0" Text="Insert Project Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" BorderThickness="3,3,3,3"/>
+        <ComboBox x:Name="cbxStatus" HorizontalAlignment="Left" Height="20" Margin="97,164,0,0" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.764,2.988">
+            <ComboBoxItem Content="Not Started"/>
+            <ComboBoxItem Content="Started"/>
+            <ComboBoxItem Content="Paused"/>
+            <ComboBoxItem Content="Finished"/>
+        </ComboBox>
+        <Label x:Name="lblNumberofTasksData" Content="0" HorizontalAlignment="Left" Margin="145,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.607,-0.123"/>
+        <TextBox x:Name="txtbxDuration" HorizontalAlignment="Left" Margin="215,135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="68,233,0,0" VerticalAlignment="Top" Click="onClickbtnSave"/>
+        <Button x:Name="bntCancel" Content="Cancel" HorizontalAlignment="Left" Margin="122,233,0,0" VerticalAlignment="Top" Click="onClickbtnCancel"/>
+
     </Grid>
 </Window>
