@@ -38,7 +38,8 @@ namespace AchievementTracker
 
         private void onClickbtnNewTask(object sender, RoutedEventArgs e)
         {
-
+            TaskCreateEditWindow taskCreateEdit = new TaskCreateEditWindow();
+            taskCreateEdit.Show();
         }
 
         private void onClickbtnDeleteTask(object sender, RoutedEventArgs e)
