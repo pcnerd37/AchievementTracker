@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AchievementTracker"
         mc:Ignorable="d"
-        Title="TaskCreateEditWindow" Height="450" Width="800">
+        Title="TaskCreateEditWindow" Height="399" Width="426">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="343*"/>
+            <ColumnDefinition Width="57*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Project" HorizontalAlignment="Left" Height="25" Margin="30,20,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label x:Name="ProjectNameLabel" Content="Project Name" HorizontalAlignment="Left" Height="25" Margin="83,20,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="TaskToAddLabel" Content="Tasks:" HorizontalAlignment="Left" Margin="30,57,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TasksTextBox" HorizontalAlignment="Left" Height="293" Margin="83,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" AcceptsReturn="True"/>
+        <Button x:Name="SaveButton" Content="Save Tasks" HorizontalAlignment="Left" Margin="83,355,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
